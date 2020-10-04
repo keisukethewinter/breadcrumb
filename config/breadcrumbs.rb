@@ -4,7 +4,7 @@ end
 
 crumb :tweets do
   link "ツイート一覧", tweets_index_path
-  parent :親要素のページ名
+  parent :root
 end
 
 crumb :contacts do
